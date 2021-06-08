@@ -44,10 +44,9 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
+          Written by Kalidindi Bhavana.
+          <a href={"https://www.linkedin.com/in/bhavana-kalidindi-018408203/"}>
+               LinkedIn Profile
           </a>
         </p>
       )}
